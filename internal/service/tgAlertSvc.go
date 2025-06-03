@@ -10,8 +10,8 @@ import (
 
 const (
 	baseUrl         = "https://api.telegram.org/bot%s/%s"
-	botToken        = "7753493794:AAHOmgVxWF1zy_bO8GH6fWGp00HyPJc5Zfs"
-	chatId001 int64 = -1002678697952
+	botToken        = ""
+	chatId001 int64 = 0
 )
 
 var (
