@@ -10,7 +10,7 @@
 
 ```shell
 #!/bin/bash
-# 1019 服务监控，如果进程不存在，则发送告警消息到 tg 群
+# 针对某个服务监控，如果进程不存在，则发送告警消息到 tg 群
 pCount=$(ps axu | grep "web" | grep -v grep | wc -l)
 if [ "$pCount" -lt "4" ];then
     echo "$(date +'%Y-%m-%d %H:%M:%S'), web 进程不存在，发送告警消息到 tg 群"
