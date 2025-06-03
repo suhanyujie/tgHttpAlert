@@ -1,0 +1,10 @@
+### Send POST request with json body
+POST http://localhost:9101/tg/alert1
+Content-Type: application/json
+
+{
+  "env": "dev",
+  "serverFlag": "local",
+  "app": "monitor1",
+  "msg": "应用 app1 进程不存在，请检查"
+}

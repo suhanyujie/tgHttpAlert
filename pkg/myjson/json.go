@@ -1,0 +1,5 @@
+package myjson
+
+func marshal() {
+
+}
